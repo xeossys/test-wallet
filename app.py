@@ -5,7 +5,7 @@ from cryptography.hazmat.primitives import serialization
 
 # =====================================================================
 # PASTE YOUR CENTRAL MINT RED PUBLIC KEY HERE
-ADMIN_PUBKEY = "PASTE_YOUR_64_CHAR_KEY_HERE"
+ADMIN_PUBKEY = "8ec94ddd8b99e3efdc85bc264d615782481bdaa810b945c1ce06291b6da43531"
 # =====================================================================
 
 DB_PATH = "xeos_enterprise.db"
