@@ -58,7 +58,7 @@ def get_network_balances():
         except: continue
     return balances
 
-# 3. PREMIUM ENTERPRISE FRONTEND (HTML/JS)
+# 3.FRONTEND (HTML/JS)
 HTML = """
 <!DOCTYPE html>
 <html lang="en">
@@ -280,7 +280,7 @@ def send_funds():
     
     manifest = {"type": "TRANSFER", "payload": payload, "signature": sig}
     
-    # Optional Enterprise Feature: Auto-broadcast to the chain to save the recipient from manual claiming
+
     # conn = sqlite3.connect(DB_PATH)
     # conn.execute("INSERT OR IGNORE INTO chain (signature, manifest) VALUES (?, ?)", (sig, json.dumps(manifest)))
     # conn.commit(); conn.close()
